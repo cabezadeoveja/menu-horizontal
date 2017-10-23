@@ -1,0 +1,36 @@
+body{
+	font-family: sans-serif;
+}
+
+nav{
+	/*outline: 1px solid yellow;*/
+}
+
+ul{
+	/*outline: 1px solid blue;*/
+	list-style: none; /*para que no vayan los puntos de la lista*/
+	padding: 0;
+	margin: 0;
+	background-color: #D8BFD8;
+	line-height: 42px;
+	overflow: auto; /* otra manera de hacerlo diferente a display cuando ocupamos flow */
+}
+
+li{
+	/*outline: 1px solid green;*/
+	width: 150px;
+	/*display: inline-block;*/ /*para que se posicione una al lado de la otra horizontalmente*/
+    text-align: center;
+    float: left; /* otra manera de hacerlo diferente a display */
+}
+a{ /*etiqueta de tipo in-line*/
+	/*outline: 1px solid pink;*/
+	text-decoration: none;
+	color: #F5FFFA; /*para que los textos tengan ese color*/
+	display: block; /*que la etiqueta ancor ocupe el espacio disponible de la etiqueta q la contiente*/
+}
+
+a:hover{/*para cambiar el color del background-color cuando nos posicionamos sobre el*/
+	background-color: #AFEEEE;
+	color: #696969;
+}
